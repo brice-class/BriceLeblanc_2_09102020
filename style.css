@@ -1,0 +1,289 @@
+body{
+    margin: 1.5%;
+    font-family: "Raleway" , "sans-serif";
+}
+
+
+/* HEADER */
+
+header{
+
+    font-size: xx-large;
+}
+
+#logos{
+    height: 70px;
+    width: 140px;
+    margin-top: 20px;
+    
+}
+header ul{
+    display: inline;
+    float: right;
+}
+
+header li{
+    display: inline;
+    margin: 10px 30px;
+}
+
+
+
+/* NAVIGATION */
+
+nav{
+    display: block;
+    margin-left: 35px;
+}
+nav h2{
+    font-size: xx-large;
+    margin-bottom: 5px;
+}
+nav p{
+    margin-top: 5px;
+}
+
+input{
+    font-size: large;
+    margin-right: 0px;
+}
+
+nav h3{
+    font-weight: bold;
+}
+
+nav button{
+    background-color: rgb(4, 175, 255);
+    color: white;
+    font-size: large;
+    margin-left: 0%;
+}
+
+nav i{
+    background-color: #beb7b7;
+    border-radius: 8px 0px 0px 8px;
+    font-size: large;
+    padding: 4.5px;
+}
+
+
+
+/* FILTER */
+
+#box{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+    margin-left:35px ;
+    margin-top: 20px;
+}
+#box ul{
+    display: flex;
+    flex-direction: row;
+    list-style:none ; 
+    width: 30%;
+}
+
+#box li{
+    margin-right: 5%;
+}
+
+#box button{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    padding: 0%;
+    font-size: 0.2em;
+    border-radius: 10px;
+    font-size: large;
+    padding: 5px;
+    width: fit-content;
+}
+
+
+
+.box{
+    display: inline;
+}
+
+#box i{
+    color: #0065FC;
+    background-color:#9fbbe6 ;
+    border-radius: 50px;
+}
+
+span{
+    margin-bottom:5px ;
+    margin-left: 35px;
+}
+
+button:hover{
+    background-color: rgb(121, 160, 121);
+   
+}
+/*SECTION*/
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/*HEBERGEMENT*/
+
+h3{
+   
+    font-size: 1.5em;
+}
+
+#hebergement{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: space-around;
+    height: 700px;
+    width: 1250px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+#hebergement div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 90%;
+}
+#hebergement h3{
+    font-size: 1.5em;
+}
+
+.element{
+    height:39%;
+    width: 26%;
+    text-align: left;
+    
+
+}
+
+img{
+    height: 60%;
+    width: 95%;
+    border-radius: 10px;
+    margin: 2.2%;
+    
+}
+
+article{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.element h4{
+    margin:  2%;
+}
+.element p{
+    margin: 1% 2%;
+}
+
+
+
+/*POPULAIRE*/
+
+#populaires{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+    width: 500px;
+    border-radius: 15px;
+    margin: 20px;
+}
+#populaires h3{
+    font-size: 1.5em;
+    margin: 3%;
+}
+
+.populaire{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: 23%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.populaire img{
+    width: 30%;
+    height: 85%;
+   
+}
+
+article i{
+    color: #0065FC;
+}
+.far {
+    color: gray;
+}
+
+
+
+     /*ACTIVITÉ*/
+
+#Activités{
+    width: 98%;
+    height: 500px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    align-items: center;
+}
+
+.large{
+    height: 100%;
+    width: 22%;
+    border-radius: 20px;
+}
+.middle{
+    height: 58%;
+    width: 22%;
+    border-radius: 20px;
+}
+
+.small{
+    height: 38%;
+    width: 22%;
+    border-radius: 20px;
+}
+#Activités .large img{
+    height: 90%;
+    width: 100%;
+    margin: 0%;
+}
+
+
+
+footer{
+    width: 98%;
+    background-color: #F2F2F2;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h4{
+    font-size: 1.5em;
+}
