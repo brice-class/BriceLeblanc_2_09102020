@@ -138,6 +138,7 @@ section{
 h3{
    
     font-size: 1.5em;
+    margin-left: 1%;
 }
 
 #hebergement{
@@ -171,7 +172,7 @@ h3{
 
 }
 
-img{
+#hebergement img{
     height: 60%;
     width: 95%;
     border-radius: 10px;
@@ -179,7 +180,7 @@ img{
     
 }
 
-article{
+#hebergement article{
     background-color: white;
     text-align: center;
     border-radius: 10px;
@@ -191,9 +192,7 @@ article{
 .element p{
     margin: 1% 2%;
 }
-.titre{
 
-}
 
 
 
@@ -227,6 +226,7 @@ article{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     margin: auto;
 }
 
@@ -243,40 +243,103 @@ article i{
     color: gray;
 }
 
+  /*  */
+#separateur{
+    height: 4%;
+}
 
 
      /*ACTIVITÉ*/
 
-#Activités{
-    width: 98%;
+#activites{
+    width: 100%;
     height: 500px;
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    flex-wrap:wrap ;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items:stretch;
+    justify-content: stretch;
 }
 
 .large{
+    width: 23%;
     height: 100%;
-    width: 22%;
-    border-radius: 20px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 1px 1px 1px 1px  #F2F2F2;
+    
+
 }
 .middle{
-    height: 58%;
-    width: 22%;
-    border-radius: 20px;
+    height: 50.1%;
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 1px  #F2F2F2;;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
 }
 
 .small{
-    height: 38%;
-    width: 22%;
-    border-radius: 20px;
+    height: 37.6%;
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px  #F2F2F2;;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
 }
-#Activités .large img{
-    height: 90%;
-    width: 100%;
-    margin: 0%;
+
+
 }
+
+
+}
+
+#activites .large{
+    height: 100%;
+
+
+}
+
+#activites article img{
+    height:80%;
+    width: 100%; 
+    border-radius:15px 15px 0px 0px ;   
+}
+#activites .small img{
+    height:80%;
+    width: 100%; 
+    border-radius:15px 15px 0px 0px ;   
+}
+#activites .large img{
+    height:90%;
+    width: 100%; 
+    border-radius:15px 15px 0px 0px ;   
+}
+#activites .large h5{
+    margin: 0.4%;
+    font-size: 1em;
+    
+}
+#activites .middle h5{
+    margin: auto;
+    font-size: 1em;
+    
+}
+#activites .small h5{
+    margin-top:4%; 
+    margin-bottom: 10%;
+    font-size: 1em; 
+    box-sizing: border-box;    
+}
+
+
+
 
 
 
