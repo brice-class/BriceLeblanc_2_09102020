@@ -1,6 +1,8 @@
 body{
     margin: 1.5%;
     font-family: "Raleway" , "sans-serif";
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -9,19 +11,21 @@ body{
 header{
 
     font-size: xx-large;
+    display: flex;
+    justify-content: space-evenly;
 }
+header ul{
+    margin-left: 50%;
+}
+
 
 #logos{
     height: 70px;
     width: 140px;
     margin-top: 20px;
+    margin-left: 2.5;
     
 }
-header ul{
-    display: inline;
-    float: right;
-}
-
 header li{
     display: inline;
     margin: 10px 30px;
@@ -95,16 +99,25 @@ nav i{
     display: flex;
     flex-direction: row;
     white-space: nowrap;
-    padding: 0%;
     font-size: 0.2em;
-    border-radius: 10px;
+    border-radius: 30px ;
     font-size: large;
-    padding: 5px;
+    padding: 0px 5%;
+    padding-left: 0%;
+    padding-right: 15px;
     width: fit-content;
+    font-weight: bold;
+    align-items: center;
+    background-color: white;
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    border-left: white;
+}
+#box p{
+    font-weight: bold;
 }
 
-
-
+}
 .box{
     display: inline;
 }
@@ -112,18 +125,34 @@ nav i{
 #box i{
     color: #0065FC;
     background-color:#9fbbe6 ;
-    border-radius: 50px;
+    border-radius: 45px;
+    padding: 9px;
+    margin-right: 10px;
+    margin-left: 0px;
+    border-color:3px white solid;
 }
+
 
 span{
     margin-bottom:5px ;
     margin-left: 35px;
+}
+span i{
+    color: #0065FC;
+    margin-right: 1%;
+    border: 2px solid rgb(212, 212, 212);
+    padding: 0.4% 0.7%;
+    border-radius: 50px;
 }
 
 button:hover{
     background-color: rgb(121, 160, 121);
    
 }
+
+
+
+
 /*SECTION*/
 
 section{
@@ -182,15 +211,17 @@ h3{
 
 #hebergement article{
     background-color: white;
-    text-align: center;
     border-radius: 10px;
 }
 
+#hebergement article h4,p{
+}
+
 .element h4{
-    margin:  2%;
+    margin:  0% 2% 2% 6%;
 }
 .element p{
-    margin: 1% 2%;
+    margin: 0% 2% 2% 6%;
 }
 
 
@@ -268,7 +299,6 @@ article i{
     margin: auto;
     box-shadow: 1px 1px 1px 1px  #F2F2F2;
     
-
 }
 .middle{
     height: 50.1%;
@@ -294,18 +324,9 @@ article i{
     align-items: center;
 }
 
-
-}
-
-
-}
-
 #activites .large{
     height: 100%;
-
-
 }
-
 #activites article img{
     height:80%;
     width: 100%; 
@@ -340,8 +361,7 @@ article i{
 
 
 
-
-
+     /*FOOTER*/
 
 footer{
     width: 98%;
@@ -349,8 +369,7 @@ footer{
     background-color: #F2F2F2;
     margin-top: 3%;
     display: flex;
-    align-items: flex-start;
-    
+    align-items: flex-start;   
 }
 
 footer div{
@@ -362,10 +381,12 @@ footer div{
     align-items: left;
     margin: auto;
 }
+
 footer h4{
     font-size: 1.5em;
     margin: 0%
 }
+
 footer ul{
     text-align: left;
     display: flex;
@@ -386,6 +407,7 @@ footer li{
     color: black;
     text-decoration: none;
 }
+
 a:hover{
     color: blue;
 }
