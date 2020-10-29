@@ -31,13 +31,22 @@ header li{
     margin: 10px 30px;
 }
 
+header a:hover{
+    color: #0065FC;
+    border-top: solid;
+    
+}
+
 
 
 /* NAVIGATION */
 
 nav{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    
     margin-left: 35px;
+
 }
 nav h2{
     font-size: xx-large;
@@ -142,7 +151,7 @@ nav i{
 
 span{
     margin-bottom:5px ;
-    margin-left: 35px;
+    margin-left: 1.9%;
 }
 span i{
     color: #0065FC;
@@ -429,4 +438,17 @@ a:hover{
 
 footer a:hover{
     font-size: 1.5em;
+}
+
+
+
+
+
+
+@media all and (max-widht: 1280px)
+{
+    footer{
+        display: none;
+        background: #0065FC;
+    }
 }
