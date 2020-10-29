@@ -50,6 +50,9 @@ nav p{
 input{
     font-size: large;
     margin-right: 0px;
+    padding: 0.5%;
+    border: 1px #F2F2F2 solid ;
+    appearance: none;
 }
 
 nav h3{
@@ -57,17 +60,21 @@ nav h3{
 }
 
 nav button{
-    background-color: rgb(4, 175, 255);
+    background-color:  #0065FC;
     color: white;
     font-size: large;
-    margin-left: 0%;
+    margin-left:-12px;
+    padding: 0.5%;
+    border: 0px;
+    border-radius: 0px 12px 12px 0px;
+
 }
 
 nav i{
-    background-color: #beb7b7;
-    border-radius: 8px 0px 0px 8px;
+    background-color:  #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
     font-size: large;
-    padding: 4.5px;
+    padding: 0.7%;
 }
 
 
@@ -81,8 +88,8 @@ nav i{
     align-items: center;
     justify-content: start;
     margin-bottom: 20px;
-    margin-left:35px ;
-    margin-top: 20px;
+    margin-left:2% ;
+    margin-top: 0.9%;
 }
 #box ul{
     display: flex;
@@ -159,6 +166,13 @@ section{
     display: flex;
     justify-content: space-around;
 }
+
+
+
+    
+
+
+
 
 
 
@@ -239,7 +253,8 @@ h3{
     height: 700px;
     width: 500px;
     border-radius: 15px;
-    margin: 20px;
+    margin-top:  20px;
+    margin-left: 1%;
 }
 #populaires h3{
     font-size: 1.5em;
