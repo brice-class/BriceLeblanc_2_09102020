@@ -288,6 +288,7 @@ h3{
 .populaire img{
     width: 30%;
     height: 85%;
+    border-radius:  15px 0px 0px 15px;
    
 }
 
@@ -442,13 +443,3 @@ footer a:hover{
 
 
 
-
-
-
-@media all and (max-widht: 1280px)
-{
-    footer{
-        display: none;
-        background: #0065FC;
-    }
-}
