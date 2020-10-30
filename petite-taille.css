@@ -1,45 +1,62 @@
 body{
+    width: 100%;
+    height: auto;
     margin: auto;
     margin: 0%;
     padding: 5px;
+    justify-content: center;
+    text-align: center;
 }
 
 header{
-    width: auto;
+    width:auto;
+    flex-direction: row;
+    flex-grow: inherit;
 }
 #box{
     flex-direction: column;
     text-align: left;
+    align-items: flex-start;
+    margin-left: 1% 0%;
 }
 nav{
     margin: auto;
     text-align: center;
 }
+
 #box ul{
     display: flex;
     flex-direction: column;
     text-align: left;
     align-items: flex-start;
+    width: auto;
+}
+#box ul li{
+    width: auto;
 }
 #box button{
-    height:90px;
-    width: 45em;
+    height:70px;
+    width: 150%;
     text-align: center;
     
 }
 span{
     text-align:center ;
     margin: auto;
-    font-size: 3em;
+    font-size: small;
+}
+section{
+    width: 375px;
 }
 #set{
     display: flex;
     flex-direction: column-reverse;
-    width: 200px;
+    width: auto;
     justify-content: center;
     align-items: flex-start;
 }
 #hebergement{
+    width: auto;
     display: flex;
     flex-wrap: wrap;  
     height: 5950px; 
@@ -68,7 +85,7 @@ span{
     display: flex;
     flex-direction: column;
     height:200em;
-    width: max-content;
+    width: 100%;
     padding: auto;
     margin: auto;
    
