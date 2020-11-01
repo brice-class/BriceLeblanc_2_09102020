@@ -12,29 +12,54 @@ header{
 
     font-size: xx-large;
     display: flex;
-    justify-content: space-evenly;
-}
-header ul{
-    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
+#espace{
+    width: 61%;
+}
+#menu{
+    display:flex ;
+    flex-direction: row;
+    width: auto;
+}
+
+
+
+header  ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-around ;
+    padding: 0%;
+    margin-top: 1%;
+    margin-left: -10%;
+
+}
 
 #logos{
-    height: 70px;
-    width: 140px;
-    margin-top: 20px;
-    margin-left: 2.5;
+    height: auto;
+    width: 12%;
+    margin-top: 1%;
+
     
 }
+
 header li{
     display: inline;
-    margin: 10px 30px;
+    margin-right: 9%;
 }
 
 header a:hover{
     color: #0065FC;
     border-top: solid;
     
+}
+
+#sign{
+    margin-left: 8%;
+    margin-top: 0.8%;
 }
 
 
@@ -44,8 +69,8 @@ header a:hover{
 nav{
     display: flex;
     flex-direction: column;
-    
-    margin-left: 35px;
+    margin-bottom: 1%;
+    margin-left: 1%;
 
 }
 nav h2{
@@ -90,84 +115,75 @@ nav i{
 
 /* FILTER */
 
-#box{
+#choice{
     display: flex;
+    align-items: center;
+    margin-top: 1px;
+    padding-left: 20px;
+    font-weight: bold;
+    height: 5vh;
+    width: 100%;
+    margin-bottom: 2%;
+    
+}
+
+#choice h2 {
+    font-size: 1em;
+}
+
+#choice ul{
+    display: flex;
+    flex-wrap:nowrap ;
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+}
+
+#choice li{
+    display: flex;
+    align-items: center;
     flex-wrap: nowrap;
-    flex-direction:row;
-    align-items: center;
-    justify-content: start;
-    margin-bottom: 20px;
-    margin-left:2% ;
-    margin-top: 0.9%;
-}
-#box ul{
-    display: flex;
-    flex-direction: row;
-    list-style:none ; 
-    width: 30%;
+    margin-right: 2%;
+    border: #F2F2F2 1px solid;
+    border-radius: 20px 20px 20px 20px;
+    width: 12%;
 }
 
-#box li{
-    margin-right: 5%;
-}
 
-#box button{
-    display: flex;
-    flex-direction: row;
-    white-space: nowrap;
-    font-size: 0.2em;
-    border-radius: 30px ;
-    font-size: large;
-    padding: 0px 5%;
-    padding-left: 0%;
-    padding-right: 15px;
-    width: fit-content;
-    font-weight: bold;
-    align-items: center;
-    background-color: white;
-    border-color: rgb(201, 201, 201);
-    border-style: solid;
-    border-left: white;
-}
-#box p{
-    font-weight: bold;
-}
-
-}
-.box{
-    display: inline;
-}
-
-#box i{
+.filtre {
+    
+    background-color: #DEEBFF;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
     color: #0065FC;
-    background-color:#9fbbe6 ;
-    border-radius: 45px;
-    padding: 9px;
-    margin-right: 10px;
-    margin-left: 0px;
-    border-color:3px white solid;
+    border: 1px solid #F2F2F2;
+    height:100%;
+    width: 3.5em;
+    margin-left: -5px;
+    margin-right: 10%;
 }
 
+
+#choice li:hover {
+    background-color: #0065FC;
+    color: #DEEBFF;
+}
+
+/*  SPAN */
 
 span{
-    margin-bottom:5px ;
-    margin-left: 1.9%;
+    margin-left: 1.2%;
 }
+
 span i{
     color: #0065FC;
+    text-align: center;
+    border-radius: 25px;
+    padding:0.5% 0.6% 0.7% 0.6%;
+    border:solid 2px #F2F2F2 ;
+    height: 0.5em;
     margin-right: 1%;
-    border: 2px solid rgb(212, 212, 212);
-    padding: 0.4% 0.7%;
-    border-radius: 50px;
 }
-
-button:hover{
-    background-color: rgb(121, 160, 121);
-   
-}
-
-
-
 
 /*SECTION*/
 
@@ -193,12 +209,15 @@ h3{
     margin-left: 1%;
 }
 
+#set{
+    height: 75vh;
+    
+}
 #hebergement{
     background-color: #F2F2F2;
     display: flex;
-    flex-wrap: wrap;
-    align-items: left;    
-    height: 700px;
+    flex-wrap: wrap;    
+    height: 100%;
     width: 1250px;
     border-radius: 15px;
     margin-top: 20px;
@@ -237,8 +256,7 @@ h3{
     border-radius: 10px;
 }
 
-#hebergement article h4,p{
-}
+
 
 .element h4{
     margin:  0% 2% 2% 6%;
@@ -259,7 +277,7 @@ h3{
     flex-direction: column;
     align-items: left;
     justify-content: space-around;
-    height: 700px;
+    height: 100%;
     width: 500px;
     border-radius: 15px;
     margin-top:  20px;
@@ -275,21 +293,26 @@ h3{
 .populaire{
     background-color: white;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 17px;
     height: 23%;
     width: 80%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     margin: auto;
 }
 
 .populaire img{
     width: 30%;
-    height: 85%;
-    border-radius:  15px 0px 0px 15px;
+    height: 90%;
+    border-radius:  17px 0px 0px 17px;
+    margin-left: 2%;
    
+}
+
+.populaire div{
+    margin-left: 10%;
 }
 
 article i{
