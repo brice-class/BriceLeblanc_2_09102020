@@ -284,6 +284,13 @@ h3{
     margin-left: 1%;
 }
 
+.populaire a{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+
 #popular_title{
     display: flex;
     flex-direction: row;
@@ -300,6 +307,11 @@ h3{
     height: 1em;
     width: 1em;
 }
+
+#popular_title span i:hover{
+    color: #0065FC;
+}
+
 
 #populaires h3{
     font-size: 1.5em;
@@ -372,7 +384,7 @@ article i{
     width: 22%;
     height: 100%;
     border-radius: 15px;
-    box-shadow: 1px 1px 1px 1px  #F2F2F2;   
+    box-shadow: 2px 2px 2px 2px  #F2F2F2;   
 }
 #activites .large img{
     height:90%;
@@ -384,7 +396,7 @@ article i{
     height: 50.1%;
     width: 100%;
     border-radius: 15px;
-    box-shadow: 1px 1px 3px 1px  #F2F2F2;;
+    box-shadow: 2px 2px 2px 2px  #F2F2F2;;
     
     display: flex;
     flex-direction: column;
@@ -396,7 +408,7 @@ article i{
     height: 37.6%;
     width: 100%;
     border-radius: 15px;
-    box-shadow: 1px 1px 1px 1px  #F2F2F2;;;
+    box-shadow: 2px 2px 2px 2px  #F2F2F2;;;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -440,10 +452,10 @@ article i{
      /*FOOTER*/
 
 footer{
-    width: 98%;
+    width: 100%;
     height: 20em;
     background-color: #F2F2F2;
-    margin: 3% 1%;
+    margin: 3% 0%;
     display: flex;
     align-items: flex-start;   
 }
