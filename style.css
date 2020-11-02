@@ -146,7 +146,7 @@ nav i{
     margin-right: 2%;
     border: #F2F2F2 1px solid;
     border-radius: 20px 20px 20px 20px;
-    width: 12%;
+    width: 13%;
 }
 
 
@@ -158,7 +158,7 @@ nav i{
     color: #0065FC;
     border: 1px solid #F2F2F2;
     height:100%;
-    width: 3.5em;
+    width: 22%;
     margin-left: -0.7%;
     margin-right: 10%;
 }
@@ -239,8 +239,6 @@ h3{
     height:39%;
     width: 26%;
     text-align: left;
-    
-
 }
 
 #hebergement img{
@@ -265,7 +263,12 @@ h3{
     margin: 0% 2% 2% 6%;
 }
 
-
+#hebergement article{
+    box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
+}
+#hebergement article:hover{
+    box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
+}
 
 
 /*POPULAIRE*/
@@ -283,6 +286,13 @@ h3{
     margin-top:  20px;
     margin-left: 1%;
 }
+#populaires article{
+    box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
+}
+#populaires article:hover{
+    box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
+}
+
 
 .populaire a{
     display: flex;
@@ -375,6 +385,15 @@ article i{
    margin: 5%;
 }
 
+.small:hover{
+    box-shadow: 4px 4px 4px 4px  #F2F2F2;   
+}
+.middle:hover{
+    box-shadow: 4px 4px 4px 4px  #F2F2F2;
+}
+.large:hover{
+    box-shadow: 4px 4px 4px 4px  #F2F2F2;   
+}
 .binome_img{
     height: 100%;
     width: 22%;
