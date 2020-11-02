@@ -283,6 +283,24 @@ h3{
     margin-top:  20px;
     margin-left: 1%;
 }
+
+#popular_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#popular_title span{
+    margin-right: 10%;
+    margin-top: 9%;   
+}
+#popular_title span i{
+    color: black;
+    height: 1em;
+    width: 1em;
+}
+
 #populaires h3{
     font-size: 1.5em;
     margin-top: 10%;
@@ -323,7 +341,7 @@ article i{
 }
 
   /*  */
-#separateur{
+#activities_title{
     height: 4%;
 }
 
@@ -331,50 +349,60 @@ article i{
      /*ACTIVITÉ*/
 
 #activites{
-    width: 100%;
-    height: 500px;
+    width: 98%;
+    height: 60vh;
+    margin: 0% 2% 0% 1%;
     display: flex; 
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items:stretch;
-    justify-content: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:flex-start;
+    justify-content: space-between;
 }
 
-.large{
-    width: 23%;
+.binome_img{
     height: 100%;
-    border-radius: 15px;
-    margin: auto;
-    box-shadow: 1px 1px 1px 1px  #F2F2F2;
-    
-}
-.middle{
-    height: 50.1%;
-    width: 23%;
-    border-radius: 15px;
-    box-shadow: 1px 1px 3px 1px  #F2F2F2;;
-    margin: auto;
+    width: 22%;
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
-    align-items: center;
+    justify-content: space-between;
+}
+
+
+.large{
+    width: 22%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px  #F2F2F2;   
+}
+#activites .large img{
+    height:90%;
+    width: 100%; 
+    border-radius:15px 15px 0px 0px ;   
+}
+
+.middle{
+    height: 50.1%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 1px  #F2F2F2;;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:stretch;
+    align-items:center;
 }
 
 .small{
     height: 37.6%;
-    width: 23%;
+    width: 100%;
     border-radius: 15px;
-    box-shadow: 1px 1px 1px 1px  #F2F2F2;;
-    margin: auto;
+    box-shadow: 1px 1px 1px 1px  #F2F2F2;;;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
     align-items: center;
 }
 
-#activites .large{
-    height: 100%;
-}
 #activites article img{
     height:80%;
     width: 100%; 
@@ -415,7 +443,7 @@ footer{
     width: 98%;
     height: 20em;
     background-color: #F2F2F2;
-    margin-top: 3%;
+    margin: 3% 1%;
     display: flex;
     align-items: flex-start;   
 }
