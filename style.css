@@ -21,8 +21,6 @@ header{
 }
 #menu{
     display:flex ;
-    flex-direction: row;
-    width: auto;
 }
 
 
@@ -39,7 +37,6 @@ header  ul{
 }
 
 #logos{
-    height: auto;
     width: 12%;
     margin-top: 1%;
 
@@ -75,18 +72,17 @@ nav{
 }
 nav h2{
     font-size: xx-large;
-    margin-bottom: 5px;
+    margin-bottom: 0%;
 }
 nav p{
-    margin-top: 5px;
+    margin-top: 0.2%;
+    margin-bottom: 1%;
 }
 
 input{
     font-size: large;
-    margin-right: 0px;
     padding: 0.5%;
     border: 1px #F2F2F2 solid ;
-    appearance: none;
 }
 
 nav h3{
@@ -133,8 +129,6 @@ nav i{
 
 #choice ul{
     display: flex;
-    flex-wrap:nowrap ;
-    list-style-type: none;
     height: 100%;
     width: 100%;
 }
@@ -218,9 +212,9 @@ h3{
     display: flex;
     flex-wrap: wrap;    
     height: 100%;
-    width: 1250px;
+    width: 67%;
     border-radius: 15px;
-    margin-top: 20px;
+    margin-top: 1.2%;
 }
 #hebergement div{
     display: flex;
@@ -230,8 +224,6 @@ h3{
     height: 90%;
 }
 #hebergement h3{
-    font-size: 1.5em;
-    float: left;
     margin-left: 4%;
 }
 
@@ -278,12 +270,10 @@ h3{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: left;
-    justify-content: space-around;
     height: 100%;
-    width: 500px;
+    width: 28%;
     border-radius: 15px;
-    margin-top:  20px;
+    margin-top:  1.2%;
     margin-left: 1%;
 }
 #populaires article{
@@ -303,7 +293,6 @@ h3{
 
 #popular_title{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -376,9 +365,6 @@ article i{
     height: 60vh;
     margin: 0% 2% 0% 1%;
     display: flex; 
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items:flex-start;
     justify-content: space-between;
 }
 #activites article h5{
@@ -395,7 +381,6 @@ article i{
     box-shadow: 4px 4px 4px 4px  #F2F2F2;   
 }
 .binome_img{
-    height: 100%;
     width: 22%;
     display: flex;
     flex-direction: column;
@@ -405,7 +390,6 @@ article i{
 
 .large{
     width: 22%;
-    height: 100%;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 2px  #F2F2F2;   
 }
@@ -417,19 +401,13 @@ article i{
 
 .middle{
     height: 50.1%;
-    width: 100%;
     border-radius: 15px;
-    box-shadow: 2px 2px 2px 2px  #F2F2F2;;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content:stretch;
+    box-shadow: 2px 2px 2px 2px  #F2F2F2;
     align-items:center;
 }
 
 .small{
     height: 37.6%;
-    width: 100%;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 2px  #F2F2F2;;;
 
@@ -475,21 +453,15 @@ article i{
      /*FOOTER*/
 
 footer{
-    width: 100%;
     height: 20em;
     background-color: #F2F2F2;
     margin: 3% 0%;
-    display: flex;
-    align-items: flex-start;   
+    display: flex;  
 }
 
 footer div{
     height: 70%;
     width: 28%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
     margin: auto;
 }
 
