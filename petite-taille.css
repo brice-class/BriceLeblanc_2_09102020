@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    flex-wrap: wrap;
+    width: 100%;
+}
+#logos{
+    width: 30%;
+}
+
+#set{
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    height: 300vh;
+    width: 100%;
+}
+
+
+#hebergement{
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#hebergement article{
+    height: 15%;
+    width: 90%;
+    margin: auto;
+}
+#hebergement div{
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#populaires{
+    height: 25%;
+    width: 100%;
+}
+
+#populaires article{
+    width: 90%;
+    height: 25%;
+}
+#populaires a{
+    width: 100%;
+}
