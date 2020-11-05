@@ -259,6 +259,8 @@ h3{
     box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
 }
 #hebergement article:hover{
+    height:39.5%;
+    width: 26.5%;
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
 }
 
@@ -281,6 +283,8 @@ h3{
 }
 #populaires article:hover{
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
+    height: 23.5%;
+    width: 80.5%;
 }
 
 
@@ -372,13 +376,16 @@ article i{
 }
 
 .small:hover{
-    box-shadow: 4px 4px 4px 4px  #F2F2F2;   
+    box-shadow: 4px 4px 4px 4px  #F2F2F2; 
+    height: 38.1%;
 }
 .middle:hover{
     box-shadow: 4px 4px 4px 4px  #F2F2F2;
+    height: 50.6%;
 }
 .large:hover{
-    box-shadow: 4px 4px 4px 4px  #F2F2F2;   
+    box-shadow: 4px 4px 4px 4px  #F2F2F2;
+    height:100.5%;
 }
 .binome_img{
     width: 22%;

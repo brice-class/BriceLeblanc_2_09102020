@@ -1,20 +1,68 @@
 body{
     width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
 }
 
 header{
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
+#menu{
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    font-size: 0.8em;
+}
+
+
 #logos{
     width: 30%;
+}
+nav{
+    width: 100%;
+}
+nav h2{
+    font-size: x-large;
+    margin-bottom: 3%;
+}
+nav p{
+    font-size: large;
+    margin-bottom: 8%;
+}
+
+
+#choice{
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#choice ul{
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: ;
+    padding: 0%;
+    width: 100%;
+    font-size: x-large;
+}
+#choice ul li{
+    width: fit-content;
+    height: 20%;
+
 }
 
 #set{
     justify-content: flex-start;
     flex-direction: column-reverse;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     height: 300vh;
     width: 100%;
 }
@@ -46,5 +94,27 @@ header{
     height: 25%;
 }
 #populaires a{
+    width: 100%;
+}
+
+#activites{
+    height: 300vh;
+    width: 100%;
+    flex-direction: column;
+}
+#activites article{
+    width: 100%;
+    height: 30%;
+}
+.large{
+    height: 10%;
+}
+.binome_img{
+    flex-direction: column;
+    width: 100%;
+}
+
+
+footer{
     width: 100%;
 }
