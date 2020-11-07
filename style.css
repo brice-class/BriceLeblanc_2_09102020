@@ -16,15 +16,12 @@ header{
     align-items: center;
 }
 
-
 nav{
     display:flex ;
     width: 40%;
     justify-content: flex-end;
     margin-right: 1%;
 }
-
-
 
 header  ul{
     display: flex;
@@ -33,15 +30,11 @@ header  ul{
     justify-content:space-around ;
     padding: 0%;
     margin-top: 1%;
-    
-
 }
 
 #logos{
     width: 12%;
-    margin-top: 1%;
-
-    
+    margin-top: 1%;    
 }
 
 header li{
@@ -49,8 +42,7 @@ header li{
     margin-right: 9%;
     padding-top: 10%;
     margin-top: 1%;
-    list-style: none;
-    
+    list-style: none;   
 }
 
 header  a{
@@ -70,21 +62,22 @@ header li:hover{
     color: #0065FC;
 }
 
+/* HEADER END*/
 
-
-/* NAVIGATION */
+/* SEARCH */
 
 #recherche{
     display: flex;
     flex-direction: column;
     margin-bottom: 1%;
     margin-left: 1%;
-
 }
+
 #recherche h2{
     font-size: xx-large;
     margin-bottom: 0%;
 }
+
 #recherche p{
     margin-top: 0.2%;
     margin-bottom: 1%;
@@ -108,7 +101,6 @@ input{
     padding: 0.5%;
     border: 0px;
     border-radius: 0px 12px 12px 0px;
-
 }
 
 #recherche i{
@@ -118,7 +110,7 @@ input{
     padding: 0.7%;
 }
 
-
+/*SEARCH END*/
 
 /* FILTER */
 
@@ -154,9 +146,7 @@ input{
     width: 13%;
 }
 
-
-.filtre {
-    
+.filtre {   
     background-color: #DEEBFF;
     border-radius: 25px 25px 25px 25px;
     text-align: center;
@@ -172,17 +162,17 @@ input{
     background-color: #DEEBFF;
     border-radius: 25px 25px 25px 25px;
     text-align: center;
-    color: #0065FC;
-    
-    font-size: large;
-    padding:;
-    
+    color: #0065FC;    
+    font-size: large;    
 }
 
 #choice li:hover {
     background-color: #0065FC;
     color: #DEEBFF;
 }
+
+/*FILTER END*/
+
 
 /*  SPAN */
 
@@ -199,6 +189,7 @@ span i{
     height: 0.5em;
     margin-right: 1%;
 }
+/*  SPAN END */
 
 /*SECTION*/
 
@@ -206,15 +197,7 @@ section{
     display: flex;
     justify-content: space-around;
 }
-
-
-
-    
-
-
-
-
-
+/*  SECTION END */
 
 /*HEBERGEMENT*/
 
@@ -259,16 +242,13 @@ h3{
     width: 95%;
     border-radius: 10px;
     margin: 2.2%;
-    object-fit: cover;
-    
+    object-fit: cover;   
 }
 
-#hebergement article{
+#hebergement figure{
     background-color: white;
     border-radius: 10px;
 }
-
-
 
 .element h4{
     margin:  0% 2% 2% 6%;
@@ -277,18 +257,18 @@ h3{
     margin: 0% 2% 2% 6%;
 }
 
-#hebergement article{
+#hebergement figure{
     box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
 }
-#hebergement article:hover{
+#hebergement figure:hover{
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
     transition-duration:  0.1s;
 }
-
+/*  HEBERGEMENT END */
 
 /*POPULAIRE*/
 
-#populaires{
+aside{
     background-color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
@@ -299,10 +279,10 @@ h3{
     margin-top:  1.2%;
     margin-left: 1%;
 }
-#populaires article{
+aside figure{
     box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
 }
-#populaires article:hover{
+aside figure:hover{
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
     transition-duration: 0.1s;
     
@@ -337,7 +317,7 @@ h3{
 }
 
 
-#populaires h3{
+aside h3{
     font-size: 1.5em;
     margin-top: 10%;
     margin-left: 10%;
@@ -370,7 +350,7 @@ h3{
     margin-left: 10%;
 }
 
-article i{
+figure i{
     color: #0065FC;
 }
 .far {

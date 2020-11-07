@@ -75,7 +75,7 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
-#hebergement article{
+#hebergement figure{
     height: 15%;
     width: 90%;
     margin: auto;
@@ -84,16 +84,16 @@ nav{
     flex-direction: column;
     flex-wrap: nowrap;
 }
-#populaires{
+aside{
     height: 25%;
     width: 100%;
 }
 
-#populaires article{
+aside figure{
     width: 90%;
     height: 25%;
 }
-#populaires a{
+aside a{
     width: 100%;
 }
 
@@ -116,7 +116,7 @@ nav{
     flex-direction: column;
     width: 100%;
 }
-.binome_img article{
+.binome_img figure{
     height: 50%;
 }
 
