@@ -8,11 +8,11 @@ body{
 
 header{
     flex-wrap: wrap;
-    width: 100%;
+    width: 99%%;
     justify-content: center;
     align-items: center;
 }
-#menu{
+nav{
     flex-direction: column-reverse;
     align-items: flex-end;
     font-size: 0.8em;
@@ -22,14 +22,14 @@ header{
 #logos{
     width: 30%;
 }
-nav{
+#recherche{
     width: 100%;
 }
-nav h2{
+#recherche h2{
     font-size: x-large;
     margin-bottom: 3%;
 }
-nav p{
+#recherche p{
     font-size: large;
     margin-bottom: 8%;
 }
