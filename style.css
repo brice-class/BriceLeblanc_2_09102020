@@ -16,13 +16,6 @@ header{
     align-items: center;
 }
 
-nav{
-    display:flex ;
-    width: 40%;
-    justify-content: flex-end;
-    margin-right: 1%;
-}
-
 header  ul{
     display: flex;
     flex-direction: row;
@@ -30,11 +23,6 @@ header  ul{
     justify-content:space-around ;
     padding: 0%;
     margin-top: 1%;
-}
-
-#logos{
-    width: 12%;
-    margin-top: 1%;    
 }
 
 header li{
@@ -49,6 +37,19 @@ header  a{
     color: black;
     text-decoration: none;
 }
+
+nav{
+    display:flex ;
+    width: 40%;
+    justify-content: flex-end;
+    margin-right: 1%;
+}
+
+#logos{
+    width: 12%;
+    margin-top: 1%;    
+}
+
 header li:hover{
     color: #0065FC;
     border-top: 1px solid;
@@ -60,6 +61,7 @@ header li:hover{
     margin-top: 0.8%;
     padding-top: 5.5%;
     color: #0065FC;
+    font-weight: bold;
 }
 
 /* HEADER END*/
@@ -121,7 +123,6 @@ input{
     padding-left: 1.2%;
     font-weight: bold;
     height: 5vh;
-    width: 100%;
     margin-bottom: 2%;
     
 }
@@ -189,6 +190,7 @@ span i{
     height: 0.5em;
     margin-right: 1%;
 }
+
 /*  SPAN END */
 
 /*SECTION*/
@@ -197,6 +199,7 @@ section{
     display: flex;
     justify-content: space-around;
 }
+
 /*  SECTION END */
 
 /*HEBERGEMENT*/
@@ -209,8 +212,10 @@ h3{
 
 #set{
     height: 75vh;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
+
 #hebergement{
     background-color: #F2F2F2;
     display: flex;
@@ -220,6 +225,7 @@ h3{
     border-radius: 15px;
     margin-top: 1.2%;
 }
+
 #hebergement div{
     display: flex;
     flex-wrap: wrap;
@@ -227,6 +233,7 @@ h3{
     width: 100%;
     height: 90%;
 }
+
 #hebergement h3{
     margin-left: 4%;
 }
@@ -260,10 +267,12 @@ h3{
 #hebergement figure{
     box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
 }
+
 #hebergement figure:hover{
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
     transition-duration:  0.1s;
 }
+
 /*  HEBERGEMENT END */
 
 /*POPULAIRE*/
@@ -279,15 +288,15 @@ aside{
     margin-top:  1.2%;
     margin-left: 1%;
 }
+
 aside figure{
     box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
 }
+
 aside figure:hover{
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
-    transition-duration: 0.1s;
-    
+    transition-duration: 0.1s;    
 }
-
 
 .populaire a{
     display: flex;
@@ -315,7 +324,6 @@ aside figure:hover{
 #popular_title span i:hover{
     color: #0065FC;
 }
-
 
 aside h3{
     font-size: 1.5em;
@@ -353,18 +361,20 @@ aside h3{
 figure i{
     color: #0065FC;
 }
+
 .far {
     color: gray;
 }
 
-  /*  */
+
+
+
+
+     /*ACTIVITÉ*/
 #activities_title{
     height: 4%;
     margin-top: 2%;
 }
-
-
-     /*ACTIVITÉ*/
 
 #activites{
     width: 98%;
@@ -373,6 +383,7 @@ figure i{
     display: flex; 
     justify-content: space-between;
 }
+
 #activites article h5{
    margin: 5%;
 }
@@ -381,21 +392,23 @@ figure i{
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3); 
     transition-duration:  0.1s;
 }
+
 .middle:hover{
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
     transition-duration: 0.1s;
 }
+
 .large:hover{
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
     transition-duration: 0.1s;
 }
+
 .binome_img{
     width: 22%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 
 .large{
     width: 22%;
@@ -420,8 +433,8 @@ figure i{
     height: 37.6%;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 2px  #F2F2F2;;;
-
 }
+
 #activites a{
     height: 100%;
     width: 100%;
@@ -433,34 +446,36 @@ figure i{
     border-radius:15px 15px 0px 0px ;
     object-fit: cover;   
 }
+
 #activites .small img{
     height:80%;
     width: 100%; 
     border-radius:15px 15px 0px 0px ;  
     object-fit: cover; 
 }
+
 #activites .large img{
     height:90%;
     width: 100%; 
     border-radius:15px 15px 0px 0px ;   
 }
+
 #activites .large h5{
     margin-top: 4%;
-    font-size: 1em;
-    
+    font-size: 1em;   
 }
+
 #activites .middle h5{
    margin-top: 4%;
-    font-size: 1em;
-    
+    font-size: 1em;   
 }
+
 #activites .small h5{
     margin-top:2%; 
-    font-size: 1em; 
-       
+    font-size: 1em;       
 }
 
-
+    /*ACTIVITES END*/
 
      /*FOOTER*/
 
