@@ -9,15 +9,52 @@ body{
 header{
     flex-wrap: wrap;
     width: 99%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
 }
+
+#sign{
+    margin-top: 5%;
+}
+header ul{
+    margin-right: 100%;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+header ul :nth-child(1){
+    margin-right: 0%;
+}
+header ul  :nth-child(2){
+    padding: 15% 20% 2% 30%;
+}
+header ul li{
+    padding: 15% 10% 1% 10%;
+    border-bottom: 2px #F2F2F2 solid ;
+    width: 100%;
+}
+header li:hover{
+    border-top: 0px;
+    border-bottom: 2px solid #0065FC;
+}
+
 nav{
     flex-direction: column-reverse;
     align-items: flex-end;
     font-size: 0.8em;
 }
-
+input{
+    font-size: 1.0em;
+}
+#rechercher{
+    display: none;
+}
+#iphone{
+    display:inline-block;
+    font-size: 1em;
+}
+#iphone i{
+    background-color:#0065FC;
+}
 
 #logos{
     width: 30%;
@@ -96,6 +133,10 @@ nav{
     height: 15%;
     width: 90%;
     margin: auto;
+    height: 13%;
+}
+.element{
+    
 }
 #hebergement div{
     flex-direction: column;
@@ -107,13 +148,15 @@ aside{
     border-radius: 0px;
 }
 
-aside figure{
-    width: 90%;
+.polulaire{
+    width: 100%;
     height: 25%;
+    
 }
 aside a{
     width: 100%;
 }
+
 
 #activites{
     height: 350vh;
@@ -126,6 +169,8 @@ aside a{
     width: 100%;
     height: 100%;
 }
+
+
 .large{
     height: 18%;
     width: 100%;

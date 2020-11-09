@@ -94,7 +94,9 @@ input{
 #recherche h3{
     font-weight: bold;
 }
+form{
 
+}
 #recherche button{
     background-color:  #0065FC;
     color: white;
@@ -104,7 +106,12 @@ input{
     border: 0px;
     border-radius: 0px 12px 12px 0px;
 }
-
+#iphone{
+    display: none;
+}
+#loupe{
+    display: none;
+}
 #recherche i{
     background-color:  #F2F2F2;
     border-radius: 15px 0px 0px 15px;
@@ -212,6 +219,7 @@ h3{
 
 #set{
     height: 75vh;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -521,8 +529,6 @@ footer li{
 a:hover{
     color: blue;
 }
-
-
 
 
 
