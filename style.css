@@ -94,9 +94,7 @@ input{
 #recherche h3{
     font-weight: bold;
 }
-form{
 
-}
 #recherche button{
     background-color:  #0065FC;
     color: white;
@@ -152,6 +150,7 @@ form{
     border: #F2F2F2 1px solid;
     border-radius: 25px 20px 20px 25px;
     width: 13%;
+    cursor: pointer;
 }
 
 .filtre {   
@@ -234,7 +233,7 @@ h3{
     margin-top: 1.2%;
 }
 
-#hebergement div{
+#ensemble{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;   
@@ -246,23 +245,31 @@ h3{
     margin-left: 4%;
 }
 
+#plus{
+    display: flex;
+    height: 3em;
+    width: 90%;
+    margin-bottom: 10%;
+}
+#plus h4{
+    cursor: pointer;
+}
+
 .element{
     height:39%;
     width: 26%;
     text-align: left;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
 }
 
-#hebergement img{
+.element img{
     height: 60%;
     width: 95%;
     border-radius: 10px;
     margin: 2.2%;
     object-fit: cover;   
-}
-
-#hebergement figure{
-    background-color: white;
-    border-radius: 10px;
 }
 
 .element h4{
@@ -271,12 +278,7 @@ h3{
 .element p{
     margin: 0% 2% 2% 6%;
 }
-
-#hebergement figure{
-    box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
-}
-
-#hebergement figure:hover{
+.element:hover{
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
     transition-duration:  0.1s;
 }
@@ -462,18 +464,14 @@ figure i{
     object-fit: cover; 
 }
 
-#activites .large img{
-    height:90%;
-    width: 100%; 
-    border-radius:15px 15px 0px 0px ;   
-}
+
 
 #activites .large h5{
     margin-top: 4%;
     font-size: 1em;   
 }
 
-#activites .middle h5{
+#activites .middle h5{ 
    margin-top: 4%;
     font-size: 1em;   
 }
@@ -481,6 +479,10 @@ figure i{
 #activites .small h5{
     margin-top:2%; 
     font-size: 1em;       
+}
+
+#activites-resp{
+    display: none;
 }
 
     /*ACTIVITES END*/
