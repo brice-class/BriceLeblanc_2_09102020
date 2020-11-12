@@ -42,9 +42,7 @@ nav{
     align-items: flex-end;
     font-size: 0.8em;
 }
-input{
-    font-size: 1.0em;
-}
+
 #rechercher{
     display: none;
 }
@@ -61,7 +59,7 @@ input{
 }
 #recherche{
     width: 95%;
- 
+
 }
 #recherche h2{
     font-size: x-large;
@@ -72,6 +70,31 @@ input{
     margin-bottom: 8%;
 }
 
+form{
+    height: 3em;
+}
+
+form div{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+form button, input{
+    height: 70%;
+}
+#recherche button{
+    width: 7%;
+    text-align: center;
+    padding-right: 8%;
+    
+}
+#recherche i{
+    height: 58%;  
+    font-size: x-large;
+    width: 3%;
+    padding:1% 2.5%;
+}
 
 #choice{
     width: 95%;
@@ -89,8 +112,21 @@ input{
     flex-wrap: wrap;
     padding: 0%;
     width: 100%;
-    height: 70%;
+    height: 100%;
 }
+.filtre{
+    width: 35%;
+}
+.icones{
+    width: 100%;
+    height: 100%;
+    padding:15%;
+}
+#choice li{
+    height: 2em;
+
+}
+
 #choice ul p{
     margin: 2% 0%;
 }
@@ -130,13 +166,14 @@ input{
     align-items: center;
     background-color: white;
 }
-#hebergement figure{
-    height: 15%;
+ #hebergement .element{
+    height: 30%;
     width: 90%;
     margin: auto;
-    height: 13%;
 }
-
+.ensemble{
+    margin-bottom: -15%;
+}
 #hebergement div{
     flex-direction: column;
     flex-wrap: nowrap;
