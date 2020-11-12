@@ -181,24 +181,6 @@ input{
 /*FILTER END*/
 
 
-/*  SPAN */
-
-span{
-    margin-left: 1.2%;
-}
-
-span i{
-    color: #0065FC;
-    text-align: center;
-    border-radius: 25px;
-    padding:0.5% 0.6% 0.7% 0.6%;
-    border:solid 2px #F2F2F2 ;
-    height: 0.5em;
-    margin-right: 1%;
-}
-
-/*  SPAN END */
-
 /*SECTION*/
 
 section{
@@ -210,11 +192,6 @@ section{
 
 /*HEBERGEMENT*/
 
-h3{
-   
-    font-size: 1.5em;
-    margin-left: 1%;
-}
 
 #set{
     height: 75vh;
@@ -241,8 +218,10 @@ h3{
     height: 90%;
 }
 
-#hebergement h3{
+.titre{
     margin-left: 4%;
+    font-size: 1.5em;
+    
 }
 
 #plus{
