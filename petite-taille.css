@@ -5,7 +5,7 @@ body{
     align-items: center;
     margin: 0%;
 }
-
+/* HEADER */
 header{
     flex-wrap: wrap;
     width: 99%;
@@ -96,15 +96,20 @@ form button, input{
     padding:1% 2.5%;
 }
 
+/* END HEADER */
+
+/* FILTRE */
 #choice{
     width: 95%;
     height: 36vh;
     flex-direction: column;
     align-items: flex-start;
 }
+
 #choice h2{
     margin-bottom: 0%;
 }
+
 #choice ul{
     flex-direction: column;
     justify-content: flex-start;
@@ -114,14 +119,17 @@ form button, input{
     width: 100%;
     height: 100%;
 }
+
 .filtre{
     width: 35%;
 }
+
 .icones{
     width: 100%;
     height: 100%;
     padding:15%;
 }
+
 #choice li{
     height: 2em;
 
@@ -130,6 +138,7 @@ form button, input{
 #choice ul p{
     margin: 2% 0%;
 }
+
 #choice ul li:nth-child(2){
     order: 4;
 }
@@ -141,65 +150,81 @@ form button, input{
     margin-left: 0%;
     white-space: nowrap;
     padding-right: 7%;
-
 }
+
+/* END FILTRES */
+
+/* HEBERGEMENT */
 #logement{
     display: block;
 }
 
 #set{
-    justify-content: flex-start;
+    
     flex-direction: column-reverse;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 380vh;
     width: 100%;
 }
 
-
 #hebergement{
-    height: 80%;
+    height: 70%;
     width: 100%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     background-color: white;
 }
- #hebergement .element{
-    height: 30%;
-    width: 90%;
-    margin: auto;
-}
-.ensemble{
-    margin-bottom: -15%;
-}
-#hebergement div{
+
+
+
+.ensemble{ 
     flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 5% 0%;
 }
+ #hebergement .element{
+    height: 33%;
+    width: 90%;
+    margin: auto;
+    margin: 2% 6%;
+}
+
 #hebergement h3{
-    margin: 0%;
+    margin-top: 0%;
 }
 #plus{
     margin-left: 5%;
     font-size: large;
 }
+
+/* END HEBERGEMENT */
+
+/* POPULAIRE */
+
 aside{
-    height: 25%;
+    height: 30%;
     width: 100%;
     border-radius: 0px;
+    justify-content: space-evenly;
 }
 
-.polulaire{
-    width: 100%;
+.populaire{
+    width: 90%;
     height: 25%;
+}
+.populaire img{
+    height: 95%;
+    width: 35%;
 }
 
 aside a{
     width: 100%;
 }
-
+ /* END POPULAIRE */
 
 #activites{
     display: none;
@@ -228,6 +253,7 @@ aside a{
 #activities_title{
     white-space: nowrap;
     width: 90%;
+    font-size: x-large;
 }
 
 #activites-resp{
@@ -239,16 +265,23 @@ aside a{
     width: 90%;
     height: 12em;
     margin: 4% 0%;
+    border-radius: 25px;
 }
 
 #activites-resp .element img{
-    height: 70%;  
-
+    height: 70%;
+    width: 100%;  
+    border-radius: 25px 25px 0px 0px;
+    margin: 0%;
 }
 
 #activites-resp .element h5{
-    margin: 0% 0% 5% 5%;
+    margin: 3% 0% 2% 5%;
+    font-size: large;
 }
+
+/* FOOTER */
+
 
 footer{
     height: 75vh;

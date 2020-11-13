@@ -5,7 +5,6 @@ body{
     flex-direction: column;
 }
 
-
 /* HEADER */
 
 header{
@@ -52,8 +51,7 @@ nav{
 
 header li:hover{
     color: #0065FC;
-    border-top: 1px solid;
-    
+    border-top: 1px solid;  
 }
 
 #sign{
@@ -103,6 +101,7 @@ input{
     padding: 0.5%;
     border: 0px;
     border-radius: 0px 12px 12px 0px;
+    cursor: pointer;
 }
 #iphone{
     display: none;
@@ -128,8 +127,7 @@ input{
     padding-left: 1.2%;
     font-weight: bold;
     height: 5vh;
-    margin-bottom: 2%;
-    
+    margin-bottom: 2%;   
 }
 
 #choice h2 {
@@ -189,11 +187,12 @@ section{
 }
 
 /*  SECTION END */
+
 #logement{
     margin-left: 1.5%;
 }
-/*HEBERGEMENT*/
 
+/*HEBERGEMENT*/
 
 #set{
     height: 75vh;
@@ -244,10 +243,12 @@ section{
     border-radius: 10px;
     box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
 }
+
 .element a{
     width: 100%;
     height: 100%;
 }
+
 .element img{
     height: 60%;
     width: 95%;
@@ -259,9 +260,11 @@ section{
 .element h4{
     margin:  0% 2% 2% 6%;
 }
+
 .element p{
     margin: 0% 2% 2% 6%;
 }
+
 .element:hover{
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
     transition-duration:  0.1s;
