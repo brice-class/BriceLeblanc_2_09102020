@@ -1,13 +1,12 @@
 body{
-    width: 100%;
     height: 100%;
     justify-content: center;
-    align-items: center;
     margin: 0%;
+    padding: 0%;
 }
 /* HEADER */
 header{
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 99%;
     justify-content: space-between;
     align-items: flex-start;
@@ -20,6 +19,7 @@ header ul{
     margin-right: 100%;
     justify-content: space-between;
     font-size: 0.8em;
+    flex-wrap: nowrap;
 }
 header ul :nth-child(1){
     margin-right: 0%;
@@ -38,7 +38,6 @@ header li:hover{
 }
 
 nav{
-    flex-direction: column-reverse;
     align-items: flex-end;
     font-size: 0.8em;
 }
@@ -100,7 +99,6 @@ form button, input{
 
 /* FILTRE */
 #choice{
-    width: 95%;
     height: 36vh;
     flex-direction: column;
     align-items: flex-start;
@@ -111,13 +109,8 @@ form button, input{
 }
 
 #choice ul{
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 0%;
-    width: 100%;
-    height: 100%;
+    flex-direction: column;   
+    padding: 0%;  
 }
 
 .filtre{
@@ -159,36 +152,22 @@ form button, input{
     display: block;
 }
 
-#set{
-    
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
+#set{         
     justify-content: space-evenly;
     align-items: center;
-    height: 380vh;
-    width: 100%;
+    width: 100%; 
 }
 
 #hebergement{
-    height: 70%;
-    width: 100%;
-    flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-    background-color: white;
 }
-
-
-
 .ensemble{ 
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    margin: 5% 0%;
+    align-items: center;
 }
- #hebergement .element{
+ .card{
     height: 33%;
-    width: 90%;
+    width: 340px;
     margin: auto;
     margin: 2% 6%;
 }
@@ -206,19 +185,21 @@ form button, input{
 /* POPULAIRE */
 
 aside{
-    height: 30%;
-    width: 100%;
+   width: 100%;
+   flex-direction: column;
     border-radius: 0px;
-    justify-content: space-evenly;
+
+   
+}
+.card-pop{
+    width: 340px;
+    height: 250px;
+    margin: 4% 0%;
 }
 
-.populaire{
-    width: 90%;
-    height: 25%;
-}
-.populaire img{
+.card-pop img{
     height: 95%;
-    width: 35%;
+    width: 38%;
 }
 
 aside a{
@@ -226,46 +207,24 @@ aside a{
 }
  /* END POPULAIRE */
 
+  /* ACTIVITES */
 #activites{
-    display: none;
-    height: 350vh;
-    width: 100%;
-    flex-direction: column;
-    justify-content: space-around;
-}
-#activites .binome_img{
-    justify-content: space-around;
-    width: 100%;
-    height: 100%;
-}
-.large{
-    height: 18%;
-    width: 100%;
-}
-.binome_img{
-    flex-direction: column;
-    width: 100%;
-}
-.binome_img figure{
-    height: 50%;
-}
-
-#activities_title{
-    white-space: nowrap;
-    width: 90%;
-    font-size: x-large;
+    display: none;  
 }
 
 #activites-resp{
-    display: flex;
+    display: flex;   
+    width: 100%;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
 }
+
 #activites-resp .element{
-    width: 90%;
-    height: 12em;
+    width: 340px;
+    height: 250px;
     margin: 4% 0%;
     border-radius: 25px;
+    box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
 }
 
 #activites-resp .element img{
@@ -273,6 +232,7 @@ aside a{
     width: 100%;  
     border-radius: 25px 25px 0px 0px;
     margin: 0%;
+    object-fit: cover;
 }
 
 #activites-resp .element h5{
@@ -280,11 +240,14 @@ aside a{
     font-size: large;
 }
 
+
+
+
 /* FOOTER */
 
 
 footer{
-    height: 75vh;
+    
     width: 100%;
     flex-direction: column;;
     justify-content: space-evenly;
@@ -298,8 +261,7 @@ footer li{
 }
 footer div{
     margin: 0%;
-    display: flex;
-    height: 30%;
+    
 }
 footer ul :nth-child(1){
     margin-top: 10%;
