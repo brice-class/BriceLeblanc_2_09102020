@@ -102,8 +102,7 @@ form button, input{
 /* END HEADER */
 
 /* FILTRE */
-#choice{
-    height: 36vh;
+#choice{ 
     flex-direction: column;
     align-items: flex-start;
 }
@@ -117,42 +116,19 @@ form button, input{
     padding: 0%;  
 }
 
-.filtre{
-    width: 35%;
-}
 
-.icones{
-    width: 100%;
-    height: 100%;
-    padding:15%;
-}
 
-#choice li{
-    height: 2em;
 
-}
+
 
 #choice ul p{
     margin: 2% 0%;
 }
-
+*/
 #choice ul li:nth-child(2){
     order: 4;
 }
-
-#choice ul li{
-    width: fit-content;
-    font-size: 1.1rem;
-    margin:3.5%;
-    margin-left: 0%;
-    white-space: nowrap;
-    padding-right: 7%;
-}
-
-
-#search-bar{
-    width: 100%;
-}
+/*
 
 /* END FILTRES */
 
@@ -282,6 +258,7 @@ footer h4{
 }
 footer li{
     white-space: nowrap;
+    margin-bottom: 20%;
 }
 footer div{
     margin: 0%;
