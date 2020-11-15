@@ -1,8 +1,8 @@
 body{
     height: 100%;
     justify-content: center;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px 0px;
+    padding: 0% 0%;
 }
 /* HEADER */
 header{
@@ -80,7 +80,10 @@ form div{
 }
 
 form button, input{
-    height: 70%;
+    height: 100%;
+    width: 80%;
+    font-weight: bold;
+    
 }
 #recherche button{
     width: 7%;
@@ -94,6 +97,7 @@ form button, input{
     width: 3%;
     padding:1% 2.5%;
 }
+
 
 /* END HEADER */
 
@@ -145,8 +149,21 @@ form button, input{
     padding-right: 7%;
 }
 
+
+#search-bar{
+    width: 100%;
+}
+
 /* END FILTRES */
 
+
+
+main{
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+}
 /* HEBERGEMENT */
 #logement{
     display: block;
@@ -187,14 +204,16 @@ form button, input{
 aside{
    width: 100%;
    flex-direction: column;
-    border-radius: 0px;
+   border-radius: 0px;
+   justify-content: center;
+   margin-top: 5%;
 
    
 }
 .card-pop{
     width: 340px;
     height: 250px;
-    margin: 4% 0%;
+    margin: 6% 0%;
 }
 
 .card-pop img{
@@ -207,6 +226,10 @@ aside a{
 }
  /* END POPULAIRE */
 
+
+
+
+
   /* ACTIVITES */
 #activites{
     display: none;  
@@ -217,6 +240,7 @@ aside a{
     width: 100%;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 #activites-resp .element{
@@ -251,7 +275,7 @@ footer{
     width: 100%;
     flex-direction: column;;
     justify-content: space-evenly;
-    padding-left: 5%;
+    
 }
 footer h4{
     white-space: nowrap;

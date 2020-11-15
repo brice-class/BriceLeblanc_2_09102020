@@ -3,6 +3,7 @@ body{
     font-family: "Raleway" , "sans-serif";
     display: flex;
     flex-direction: column;
+    padding: 0% 3%;
 }
 
 /* HEADER */
@@ -66,6 +67,7 @@ header li:hover{
 }
 
 /* HEADER END*/
+
 
 
 /* SEARCH */
@@ -468,7 +470,8 @@ aside h3{
 footer{
     height: 20em;
     background-color: #F2F2F2;
-    margin: 3% 0% 0% -2%;
+    margin-top: 3%;
+    width: 100%;
     display: flex; 
      
 }
