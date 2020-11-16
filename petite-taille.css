@@ -54,7 +54,8 @@ nav{
 }
 
 #logos{
-    width: 30%;
+    width: 150px;
+    margin-top: 20px;
 }
 #recherche{
     width: 95%;
@@ -80,22 +81,8 @@ form div{
 }
 
 form button, input{
-    height: 100%;
-    width: 80%;
     font-weight: bold;
     
-}
-#recherche button{
-    width: 7%;
-    text-align: center;
-    padding-right: 8%;
-    
-}
-#recherche i{
-    height: 58%;  
-    font-size: x-large;
-    width: 3%;
-    padding:1% 2.5%;
 }
 
 
@@ -116,11 +103,6 @@ form button, input{
     padding: 0%;  
 }
 
-
-
-
-
-
 #choice ul p{
     margin: 2% 0%;
 }
@@ -139,6 +121,8 @@ main{
     flex-direction: column;
     align-items: center;
 }
+
+
 }
 /* HEBERGEMENT */
 #logement{

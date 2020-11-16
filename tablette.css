@@ -43,6 +43,7 @@ aside{
 .card-pop{
     width: 280px;
     height: 200px;
+    margin-bottom: 5%;
 }
 
 #activites{
@@ -69,10 +70,7 @@ aside{
     header ul{
         width: 100vw;
     }
-    #logos{
-        min-width: 140px;
-    }
-
+    
 
 
 
