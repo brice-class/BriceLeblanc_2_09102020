@@ -5,7 +5,7 @@ body{
 
 header{
     align-items: flex-start;
-    width: 95%;
+    width: 97%;
 }
 
 
@@ -24,7 +24,7 @@ header{
 aside{
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 100%;
     margin-left: 0%;
 }
 #popular_title{
@@ -153,7 +153,9 @@ aside{
     font-size: x-large;
     text-align: center;
 }
-
+#activites{
+    display: none;
+}
 #activites-resp{
     display: flex;
     flex-direction: column;

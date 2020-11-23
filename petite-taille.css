@@ -4,19 +4,23 @@ body{
     margin: 0px 0px;
     padding: 0% 0%;
 }
+#page-content{
+    padding: 0px;
+}
 /* HEADER */
 header{
     flex-wrap: nowrap;
-    width: 99%;
+    width: 100%;
     justify-content: space-between;
     align-items: flex-start;
+    overflow: hidden;
 }
 
 #sign{
     margin-top: 5%;
 }
 header ul{
-    margin-right: 100%;
+    margin-right: 120px;
     justify-content: space-between;
     font-size: 0.8em;
     flex-wrap: nowrap;
@@ -59,8 +63,15 @@ nav{
 }
 #recherche{
     width: 95%;
-
 }
+#recherche i{
+    padding: 13px;
+}
+#recherche button{
+    padding: 3px;
+    border-radius: 12px;
+}
+
 #recherche h2{
     font-size: x-large;
     margin-bottom: 3%;
@@ -99,17 +110,23 @@ form button, input{
 }
 
 #choice ul{
-    flex-direction: column;   
+    flex-direction: row;   
     padding: 0%;  
 }
 
 #choice ul p{
     margin: 2% 0%;
+    padding: 0px 10px;
 }
 */
 #choice ul li:nth-child(2){
     order: 4;
 }
+#choice li{
+    width: min-content;
+    margin-bottom: 20px;
+}
+
 /*
 
 /* END FILTRES */
