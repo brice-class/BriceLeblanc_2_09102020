@@ -37,7 +37,7 @@ header{
     justify-content: space-evenly;
 }
 
-#itsMe {
+.itsMe {
     flex-basis: 50%;
     text-align: center;
     border-bottom: 2px solid #F3F3F3;
@@ -111,8 +111,6 @@ header{
 #recherche p{
     margin-top: 0.2%;
     margin-bottom: 1%;
-}
-#recherche p{
     font-size: large;
     margin-bottom: 8%;
 }
@@ -252,7 +250,13 @@ input{
 #title_info {
     margin: 0px 20px 0px 20px;
 }
-
+#title_info i{
+    color:  #0065FC;
+    border: solid 2px  #F2F2F2;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
 
 main{
     /* margin: 0px 20px 0px 20px; */

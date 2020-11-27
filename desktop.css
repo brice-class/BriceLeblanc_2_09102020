@@ -1,4 +1,134 @@
+#page-content{
+    padding: 0% 2%;
+}
 
-body {
-    background-color: blueviolet;
+#sign-mobile{
+    display: none;
+    overflow: hidden;
+}
+#sign-desktop{
+    display: block;
+    padding-top: 50px;
+}
+
+header{
+    display: flex;  
+    justify-content: space-between;   
+}
+
+#mainheader{
+    margin: 0%;
+}
+
+header a{
+    font-size: x-large;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 600px;
+       
+}
+.head{
+    width: 500px;
+}
+.itsMe{
+    flex-basis: auto;
+    margin-right: 5%;
+    border-bottom: 0px solid white;
+    border-top:2px solid white; 
+    padding-top: 50px;  
+}
+
+.itsMe:hover{
+    border-top: 2px solid #0065FC;
+    border-bottom: 0px solid white;
+}
+
+#wrapper{
+    margin: 0%;
+}
+
+#recherche{
+    margin: 0%;
+}
+
+#recherche h2{
+    font-size: x-large;
+    margin-bottom: 0.5%;
+}
+
+#recherche p{
+    font-size: x-large;
+    margin-bottom: 2%;
+}
+
+#iphone{
+    display: none;
+    overflow: hidden;
+}
+
+#rechercher{
+    display: block;
+}
+
+#choice{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#filter_title{
+    flex-basis:4%;
+    margin-right: 0%;
+}
+
+#choice li{
+    margin-bottom: 0%;
+}
+
+#title_info{
+    margin-bottom: 2%;
+}
+
+#set{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hebergement{
+    background-color: #F2F2F2;
+    width: 65%;
+}
+
+.ensemble{
+    flex-direction: row;
+}
+
+aside{
+    width: 30%;
+}
+#activites-resp{
+    display: none;
+    overflow: hidden;
+}
+
+#activites{
+    display: flex;
+}
+#activites img{
+    border-radius: 25px 25px 0px 0px;
+}
+
+footer{
+    flex-direction:row;
+}
+
+footer li{
+    margin-bottom: 2%;
+}
+footer ul :nth-child(1) {
+    margin-top: 3%;
 }
