@@ -7,103 +7,97 @@ body{
 }
 
 
-#page-content{
-    padding: 0% 3%;
-}
 /* HEADER */
-
 header{
-    width: 100%;
-    font-size: xx-large;
+    align-items: flex-start;
+}
+
+#mainheader {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    height: 90px;
+    margin: 0px 20px 0px 20px;
 }
 
-header  ul{
+#sign-mobile{
+    color: #0065FC;
+    font-weight: bold;
+    /* font-size: 1em; */
+}
+#sign-desktop{
+    display: none;
+    overflow: hidden;
+}
+
+.head{
+    width: 100%;
+    /* font-size: 0.5em; */
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content:space-around ;
-    padding: 0%;
-    margin-top: 0%;
+    justify-content: space-evenly;
 }
 
-header li{
-    display: inline;
-    margin-right: 9%;
-    padding-top: 10%;
-    margin-top: 1%;
-    list-style: none;   
-    border: solid 2px white;
+#itsMe {
+    flex-basis: 50%;
+    text-align: center;
+    border-bottom: 2px solid #F3F3F3;
+    padding-bottom: 10px;
+}
+.head a:hover { color: #0065FC; }
+
+#itsMe:hover{
+    border-bottom: 2px solid #0065FC;
+    /* border-top: none; */
+    /* text-decoration: #0065FC; */
+}
+/* TODO: form must be centered */
+.search-bar {
+    align-self: center;
 }
 
-header  a{
-    color: black;
-    text-decoration: none;
-}
 
-nav{
-    display:flex ;
-    width: 40%;
-    justify-content: flex-end;
-    margin-right: 1%;
-    flex-wrap: wrap-reverse;
+/* #SEARCH  */
+#rechercher{
+    display: none;
+}
+#iphone{
+    display:inline-block;
+    font-size: 1em;
+}
+#iphone i{
+    background-color:#0065FC;
 }
 
 #logos{
-    margin-top: 10px;   
-    width: 180px; 
+    width: 100px;
+    margin-top: 0px;
 }
-
-header li:hover{
-    color: #0065FC;
-    border-top: 2px solid;  
+#recherche{
+    width: 95%;
 }
-
-#sign{
-    float: right;
-    margin-left: 40px;
-    margin-top: 8px;
-    padding-top: 37px;
-    color: #0065FC;
-    font-weight: bold;
-}
-
-/* HEADER END*/
-
-
-
-/* SEARCH */
-
 #recherche{
     display: flex;
     flex-direction: column;
     margin-bottom: 1%;
     margin-left: 1%;
 }
-
-#recherche h2{
-    font-size: xx-large;
-    margin-bottom: 0%;
+#recherche i{
+    padding: 13px;
 }
-
-#recherche p{
-    margin-top: 0.2%;
-    margin-bottom: 1%;
+#recherche .fa-map-marker-alt {
+    background-color:  #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
 }
-
-input{
+#recherche .fa-search {
+    border-radius: 15px 0px 0px 15px;
     font-size: large;
-    padding: 8px;
-    border: 1px #F2F2F2 solid ;
+    padding: 9px;
+    padding-bottom: 12px;
 }
-
-#recherche h3{
-    font-weight: bold;
+#recherche button{
+    padding: 3px;
+    border-radius: 12px;
 }
-
 #recherche button{
     background-color:  #0065FC;
     color: white;
@@ -114,60 +108,57 @@ input{
     border-radius: 0px 12px 12px 0px;
     cursor: pointer;
 }
-#iphone{
-    display: none;
+#recherche p{
+    margin-top: 0.2%;
+    margin-bottom: 1%;
 }
-#loupe{
-    display: none;
-}
-#recherche i{
-    background-color:  #F2F2F2;
-    border-radius: 15px 0px 0px 15px;
+#recherche p{
     font-size: large;
-    padding: 9px;
-    padding-bottom: 12px;
+    margin-bottom: 8%;
 }
+input{
+    font-size: large;
+    padding: 8px;
+    border: 1px #F2F2F2 solid ;
+}
+
+#recherche h2{
+    font-size: large;
+    margin-bottom: 3%;
+}
+
+
+#recherche h3{
+    font-weight: bold;
+}
+
+
+    form{
+        height: 3em;
+    }
+
+    form div{
+        height: 100%;
+        display: flex;
+        /* flex-direction: row; */
+    }
+
+    form button, input{
+        font-weight: bold;
+        
+    }
+
+
 
 /*SEARCH END*/
+    /* WRAPPER : filter & searchbar */
+    #wrapper {
+        margin: 0px 20px 0px 20px;
+    }
 
-/* FILTER */
+    /* FILTRE */
 
-#choice{
-    display: flex;
-    align-items: center;
-    margin-top: 1%;
-    padding-left: 1.2%;
-    font-weight: bold;
-    margin-bottom: 1%;   
-}
-
-#choice h2 {
-    font-size: 1em;
-}
-
-#choice ul{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-#choice li{
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin-right: 2%;
-    border: #F2F2F2 1px solid;
-    border-radius: 50px;
-    cursor: pointer;
-    white-space: nowrap;
-    
-}
-#choice li p{
-    padding: 0px 30px;
-}
-
-.filtre {   
+.filtre_icon {   
     background-color: #DEEBFF;
     border-radius: 50px;
     text-align: center;
@@ -178,6 +169,72 @@ input{
     margin-left: -0.7%;
 }
 
+#filter_title {
+    flex-basis: 10%;
+    margin-right: 3%;
+}
+
+#choice{ 
+    display: flex;
+    align-items: flex-start;
+}
+#choice{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1%;
+    padding-left: 1.2%;
+    font-weight: bold;
+    margin-bottom: 1%;   
+
+}
+
+#choice h2{
+    /* margin-bottom: 0%; */
+}
+#choice h2 {
+    font-size: 1em;
+}
+
+#choice ul{
+    flex-direction: row; 
+    flex-basis: 90%;  
+    padding: 0%;  
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#choice ul p{
+    margin: 2% 0%;
+    padding: 0px 10px;
+}
+*/
+#choice ul li:nth-child(2){
+    order: 4;
+}
+
+
+.filters{
+    width: min-content;
+    margin-bottom: 20px; 
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-right: 2%;
+    border: #F2F2F2 1px solid;
+    border-radius: 50px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+.filters p{
+    padding: 0px 30px;
+}
+
+
 .icones{
     background-color: #DEEBFF;
     border-radius: 25px 25px 25px 25px;
@@ -186,43 +243,68 @@ input{
     font-size: large;    
 }
 
-#choice li:hover {
+.filters:hover {
     background-color: #0065FC;
     color: #DEEBFF;
 }
-
 /*FILTER END*/
 
+#title_info {
+    margin: 0px 20px 0px 20px;
+}
 
-#title_info{
+
+main{
+    /* margin: 0px 20px 0px 20px; */
+}
+
+/* HEBERGEMENT 1*/
+#logement{
     display: block;
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
-#title_info i{
-    color:#0065FC;
-    margin-right: 10px;
-    border: solid 3px #F2F2F2;
-    border-radius: 50px;
-    padding: 5px 10px;
 }
 
-/*HEBERGEMENT*/
-
-#set{
+#set{         
     display: flex;
-    justify-content: space-around;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
     width: 100%;
+    align-items: center;
 }
 
 #hebergement{
-    background-color: #F2F2F2;
+    align-items: center;
+    width: 100%;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;    
-    width: 67%;
     border-radius: 15px;
     margin-top: 1.2%;
 }
+
+#subtitle{
+    text-align: center;
+}
+
+
+.ensemble{ 
+    flex-direction: column;
+    align-items: center;
+}
+
+#hebergement h3{
+    margin-top: 0%;
+}
+#plus{
+    margin-left: 5%;
+    font-size: large;
+}
+
+    /* END HEBERGEMENT */
+
+
+
+/*HEBERGEMENT 2*/
+
 
 .ensemble{
     display: flex;
@@ -239,21 +321,24 @@ input{
     
 }
 
-#subtitle{
-    width: 90%;
-}
 #subtitle h4{
     cursor: pointer;
     margin-left: 5%;
 }
 
 .card{
-    width: 26%;
+     width: 26%; 
     text-align: left;
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
     min-width: 200px;
+}
+.card{
+    /* height: 33%; */
+    width: 340px;
+    margin: auto;
+    margin: 2% 6%;
 }
 .card .fas{
     color:  #0065FC;
@@ -272,7 +357,6 @@ input{
     max-height: 160px;  
 }
 
-
 .card h4{
     margin:  0% 2% 2% 6%;
 }
@@ -288,17 +372,16 @@ input{
 
 /*  HEBERGEMENT END */
 
-/*POPULAIRE*/
+
+/*POPULAIRE : ATTENTIONT EN DOUBLE, VOIR EN BAS....*/
 
 aside{
     background-color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 28%;
-    border-radius: 15px;
-    margin-top:  1.2%;
-    margin-left: 1%;
+    border-radius: 15px;  
+    width: 100%;  
 }
 
 aside .card-pop{
@@ -318,16 +401,18 @@ aside .card-pop:hover{
 
 #popular_title{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 3%;
-    margin-left: 5%;
-}
+    margin-top: 9%;
+    width: 100%;
+    font-size: large;
+     justify-content: space-evenly;   
+     margin-bottom: 6%; 
+ }
 
 #popular_title span{
-    margin-right: 10%;
     margin-top: 5%;   
     font-size: large;
+    margin-top: 0%;
 }
 #popular_title span i{
     color: black;
@@ -339,35 +424,32 @@ aside .card-pop:hover{
     color: #0065FC;
 }
 
-aside h3{
-    font-size: 1.5em;
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-bottom: 0%;
-}
+    #popular_title h3{
+        margin: 0% 8% 2% 0%;
+    }
 
-/* TODO : a partir de 1020px -> fichier taille-moyenne.css où populaire passe au-dessus */
 .card-pop{
     background-color: white;
     text-align: center;
     border-radius: 17px;
-    height: 22%;
-    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     margin: auto;
+    width: 320px;
+    height: 180px;
+    margin-bottom: 5%;
 }
 
 .card-pop img{
-    width: 60%;
+    width: 45%;
     height: 90%;
     border-radius:  17px 0px 0px 17px;
     margin-left: 2%;
     object-fit: cover;
     /* TODO : trouver les bonnes valeurs */
-    max-width: 125px;
+    max-width: 135px;
     min-height: 95%;
 }
 .card-pop a{
@@ -379,6 +461,14 @@ aside h3{
     width: 200px;
     text-align: left;
 }
+.card-pop div h4{
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+
+.price{
+    margin: 0% 0% 40% 0%;
+}
 
 .card-pop i{
     color: #0065FC;
@@ -389,106 +479,59 @@ aside h3{
 }
 
 
+/* END POPULAIRE */
 
-     /*ACTIVITÉ*/
-#activities_title{
-    height: 4%;
-    margin-top: 2%;
-    margin-left: 20px;
-}
 
+/* ACTIVITES */
 #activites{
-    width: 98%;
-    height: 60vh;
-    margin: 0% 2% 0% 1%;
-    display: flex; 
-    justify-content: space-between;
+    display: none;  
 }
-
-#activites article h5{
-   margin: 5%;
-}
-
-#activites article:hover{
-    box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
-    transition-duration: 0.1s;
-}
-.large{
-    width: 22%;
-    border-radius: 15px;
-    box-shadow: 2px 2px 2px 2px  #F2F2F2;   
-}
-
-#activites .large img{
-    height:90%;
-    width: 100%; 
-    border-radius:15px 15px 0px 0px ; 
-    object-fit: cover;  
-}
-
-#activites .large h5{
-    margin-top: 4%;
-    font-size: 1em;   
-}
-
-
-.binome_img{
-    width: 22%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.middle{
-    height: 50.1%;
-    border-radius: 15px;
-    box-shadow: 2px 2px 2px 2px  #F2F2F2;
-}
-
-#activites .middle h5{ 
-    margin-top: 4%;
-     font-size: 1em;   
- }
-
-.small{
-    height: 37.6%;
-    border-radius: 15px;
-    box-shadow: 2px 2px 2px 2px  #F2F2F2;
-}
-
-#activites .small img{
-    height:80%;
-    width: 100%; 
-    border-radius:15px 15px 0px 0px ;  
-    object-fit: cover; 
-}
-
-#activites .small h5{
-    margin-top:2%; 
-    font-size: 1em;       
-}
-
-#activites article img{
-    height:80%;
-    width: 100%; 
-    border-radius:15px 15px 0px 0px ;
-    object-fit: cover;   
-}
-
+/* #activites{
+    width: 95%;
+} */
 
 #activites-resp{
-    display: none;
+    display: flex;   
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-    /*ACTIVITES END*/
+.card-activities-small{
+    width: 340px;
+    /* TODO: enlever le height */
+    height: 250px;
+    margin: 4% 0%;
+    border-radius: 25px;
+    box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
+}
 
-     /*FOOTER*/
+.card-activities-small img{
+    /* TODO: enlever le height */
+    height: 70%;
+    width: 100%;  
+    border-radius: 25px 25px 0px 0px;
+    margin: 0%;
+    object-fit: cover;
+}
 
-footer{
+.card-activities-small h5{
+    margin: 3% 0% 2% 5%;
+    font-size: large;
+}
+
+
+    /*FOOTER*/
+
+    footer{
     background-color: #F2F2F2;
     margin-top: 3%;
     width: 100%;
     display: flex;     
+    flex-direction: column;;
+    justify-content: space-evenly;
+    
 }
 
 footer div{
@@ -497,9 +540,17 @@ footer div{
     margin: auto;
 }
 
+footer div{
+    margin: 0%;
+    
+}
+
 footer h4{
     font-size: 1.5em;
     margin: 0%
+}
+footer h4{
+    white-space: nowrap;
 }
 
 footer ul{
@@ -518,14 +569,20 @@ footer li{
     margin: 3% 0%;
 }
 
- a{
+footer li{
+    white-space: nowrap;
+    margin-bottom: 20%;
+}
+
+footer ul :nth-child(1){
+    margin-top: 10%;
+} 
+
+/* Balises a  */
+a{
     color: black;
     text-decoration: none;
 }
-
-a:hover{
-    color: blue;
+a:hover {
+    color: #0065FC
 }
-
-
-
