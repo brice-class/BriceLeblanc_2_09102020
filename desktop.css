@@ -1,5 +1,5 @@
 #page-content{
-    padding: 0% 2%;
+    padding: 0% 4%;
 }
 
 #sign-mobile{
@@ -96,22 +96,40 @@ nav{
 #set{
     flex-direction: row;
     justify-content: space-between;
+    height: 80vh;
 }
 
 #hebergement{
     background-color: #F2F2F2;
+    height: 100%;
     width: 66%;
     margin-top: 0%;
 }
+
 
 .ensemble{
     flex-direction: row;
     margin-bottom: 0%;
 }
 
+.card{
+    margin: 2% 3%;
+}
+
+#subtitle{
+    white-space: nowrap;
+    margin-left: 30px;
+    
+}
+
 aside{
     width: 31%;
     height: 100%;
+    border-radius: 15px;
+}
+
+.card-pop{
+    width: 70%;
 }
 #activites-resp{
     display: none;
