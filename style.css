@@ -366,7 +366,7 @@ main{
 .card img{
     height: 60%;
     width: 95%;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     margin: 2.2%;
     object-fit: cover;
     max-height: 160px;  
