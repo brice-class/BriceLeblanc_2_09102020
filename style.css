@@ -288,7 +288,9 @@ main{
     width: 100%;
     background-color: white;
     display: flex;
-    flex-wrap: wrap;    
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items:flex-start ;
     border-radius: 15px;
     margin-top: 1.2%;
 }
@@ -346,7 +348,6 @@ main{
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
-    min-width: 200px;
     width: 340px;
     margin: auto;
     margin: 2% 6%;
@@ -399,9 +400,7 @@ aside{
     flex-wrap: nowrap;
 }
 
-aside .card-pop{
-    box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
-}
+
 
 aside .card-pop:hover{
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
@@ -455,8 +454,8 @@ aside .card-pop:hover{
     width: 320px;
     height: 180px;
     margin-bottom: 5%;
+    box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
 }
-
 .card-pop img{
     width: 45%;
     height: 90%;

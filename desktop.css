@@ -126,10 +126,13 @@ aside{
     width: 31%;
     height: 100%;
     border-radius: 15px;
+    justify-content: space-around;
 }
 
 .card-pop{
-    width: 70%;
+    width: 85%;
+    height: 170px;
+    max-width: 415px;
 }
 #activites-resp{
     display: none;
