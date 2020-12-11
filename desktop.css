@@ -9,6 +9,7 @@
 #sign-desktop{
     display: block;
     padding-top: 50px;
+    color:  #0065FC;
 }
 
 header{
@@ -34,7 +35,7 @@ nav{
 .head{
     width: 500px;
 }
-.itsMe{
+.anchor{
     flex-basis: auto;
     margin-right: 5%;
     border-bottom: 0px solid white;
@@ -42,7 +43,7 @@ nav{
     padding-top: 50px;  
 }
 
-.itsMe:hover{
+.anchor:hover {
     border-top: 2px solid #0065FC;
     border-bottom: 0px solid white;
 }
@@ -78,6 +79,7 @@ nav{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    padding-left: 0%;
 }
 
 #filter_title{
@@ -91,6 +93,7 @@ nav{
 
 #title_info{
     margin-bottom: 2%;
+    margin-left: 0%;
 }
 
 #set{

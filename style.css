@@ -37,7 +37,7 @@ header{
     justify-content: space-evenly;
 }
 
-.itsMe {
+.anchor {
     flex-basis: 50%;
     text-align: center;
     border-bottom: 2px solid #F3F3F3;
@@ -45,7 +45,7 @@ header{
 }
 .head a:hover { color: #0065FC; }
 
-#itsMe:hover{
+#anchor:hover{
     border-bottom: 2px solid #0065FC;
     /* border-top: none; */
     /* text-decoration: #0065FC; */
