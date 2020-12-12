@@ -139,7 +139,7 @@ input{
     form div{
         height: 100%;
         display: flex;
-        /* flex-direction: row; */
+       
     }
 
     form button, input{
