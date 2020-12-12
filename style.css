@@ -49,10 +49,9 @@ header{
 
 .anchor:hover{
     border-bottom: 2px solid #0065FC;
-    /* border-top: none; */
-    /* text-decoration: #0065FC; */
+    
 }
-/* TODO: form must be centered */
+
 .search-bar {
     align-self: center;
 }
