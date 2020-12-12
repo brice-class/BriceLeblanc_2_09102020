@@ -235,6 +235,7 @@ footer ul :nth-child(1) {
         flex-wrap: wrap;
     }
     .card-pop{
+        height: 190px;
         width: 30%;
         margin-top: 0%;
     }
