@@ -1,66 +1,105 @@
 body{
-    
     font-family: "Raleway" , "sans-serif";
     display: flex;
     flex-direction: column; 
     margin: 0%;
+    
 }
-
 
 /* HEADER */
-header{
-    align-items: flex-start;
+
+.header_nav {
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+  
+#divlog {
+    order: 1;
+    flex-basis: 50%;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
 }
 
-#mainheader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 90px;
+#logos {
+    width: 100px;
+    padding-top: 4%;
+    padding-left: 20px;
+}
+  
+.nav_hebergements {
+    text-align: center;
+    order: 3;
+    flex-basis: 50%;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+.nav_activites {
+    text-align: center;
+    order: 4;
+    flex-basis: 50%;
+    -webkit-box-sizing: border-box; 
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+.nav_link { /*balise a */
+    /*position*/
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    /*style*/
+    font-weight: 600;
+    color: #727272;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #f2f2f2;
+    text-decoration: none;
+}
+
+.nav_link:hover{
+        border-bottom: 3px solid #0065FC;
+}
+  
+#sign{
+    /*position*/
+    order: 2;
+    flex-basis: 50%;
+    padding-top: 5%;
+    text-align: right;
+    align-self: flex-start;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    /*bordure*/
+    -webkit-box-sizing: border-box;
+    /* border: 1px solid black; */
+    /*style*/
+    text-decoration: none;
+    border-top: 3px solid #fff;
+    color: #0065fc;
+    font-weight: bold;
+} 
+
+/* WRAPPER : filter & searchbar */
+
+#wrapper {
     margin: 0px 20px 0px 20px;
 }
 
-#sign-mobile{
-    color: #0065FC;
-    font-weight: bold;
-    /* font-size: 1em; */
-}
-#sign-desktop{
-    display: none;
-    overflow: hidden;
-}
-
-.head{
-    width: 100%;
-    /* font-size: 0.5em; */
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.anchor {
-    flex-basis: 50%;
-    text-align: center;
-    border-bottom: 2px solid #F3F3F3;
-    padding-bottom: 10px;
-}
-.head a:hover {
-     color: #0065FC; 
-    }
-
-.anchor:hover{
-    border-bottom: 2px solid #0065FC;
-    
-}
+/*SEARCHBAR*/
 
 .search-bar {
     align-self: center;
 }
 
-
-/* #SEARCH  */
 #rechercher{
     display: none;
 }
+
 #iphone{
     display:inline-block;
     font-size: 1em;
@@ -69,36 +108,39 @@ header{
     background-color:#0065FC;
 }
 
-#logos{
-    width: 100px;
-    margin-top: 0px;
-}
 #recherche{
     width: 95%;
 }
+
 #recherche{
     display: flex;
     flex-direction: column;
     margin-bottom: 1%;
     margin-left: 1%;
 }
+
 #recherche i{
     padding: 13px;
 }
+
 #recherche .fa-map-marker-alt {
     background-color:  #F2F2F2;
     border-radius: 15px 0px 0px 15px;
+    padding: 15px;
 }
+
 #recherche .fa-search {
     border-radius: 15px 0px 0px 15px;
     font-size: large;
-    padding: 9px;
+    padding: 7px;
     padding-bottom: 12px;
 }
+
 #recherche button{
     padding: 3px;
     border-radius: 12px;
 }
+
 #recherche button{
     background-color:  #0065FC;
     color: white;
@@ -109,12 +151,14 @@ header{
     border-radius: 12px 12px 12px 12px;
     cursor: pointer;
 }
+
 #recherche p{
     margin-top: 0.2%;
     margin-bottom: 1%;
     font-size: large;
     margin-bottom: 8%;
 }
+
 input{
     font-size: large;
     padding: 8px;
@@ -126,36 +170,26 @@ input{
     margin-bottom: 3%;
 }
 
-
 #recherche h3{
     font-weight: bold;
 }
 
+form{
+    height: 3em;
+}
 
-    form{
-        height: 3em;
-    }
+form div{
+    height: 100%;
+    display: flex;
+}
 
-    form div{
-        height: 100%;
-        display: flex;
-       
-    }
-
-    form button, input{
-        font-weight: bold;
-        
-    }
-
-
+form button, input{
+    font-weight: bold;
+}
 
 /*SEARCH END*/
-    /* WRAPPER : filter & searchbar */
-    #wrapper {
-        margin: 0px 20px 0px 20px;
-    }
 
-    /* FILTRE */
+/* FILTER */
 
 .filtre_icon {   
     background-color: #DEEBFF;
@@ -177,6 +211,7 @@ input{
     display: flex;
     align-items: flex-start;
 }
+
 #choice{
     display: flex;
     flex-direction: column;
@@ -185,12 +220,12 @@ input{
     padding-left: 1.2%;
     font-weight: bold;
     margin-bottom: 1%;   
-
 }
 
 #choice h2{
     /* margin-bottom: 0%; */
 }
+
 #choice h2 {
     font-size: 1em;
 }
@@ -210,7 +245,6 @@ input{
     padding: 0px 10px;
 }
 
-
 .filters{
     width: min-content;
     margin-bottom: 20px; 
@@ -224,11 +258,9 @@ input{
     white-space: nowrap;
 }
 
-
 .filters p{
     padding: 0px 30px;
 }
-
 
 .icones{
     background-color: #DEEBFF;
@@ -242,6 +274,7 @@ input{
     background-color: #0065FC;
     color: #DEEBFF;
 }
+
 /*FILTER END*/
 
 #title_info {
@@ -249,6 +282,7 @@ input{
     display: flex;
     align-items: flex-start;
 }
+
 #title_info i{
     display: inline-block;
     font-size: small;
@@ -258,16 +292,14 @@ input{
     padding: 5px 10px;
     margin-right: 10px;
 }
+
 #title_info span{
     display: inline-block;
     margin-top: 3px;
 }
 
-main{
-    /* margin: 0px 20px 0px 20px; */
-}
-
 /* HEBERGEMENT 1*/
+
 #logement{
     display: block;
 }
@@ -296,10 +328,14 @@ main{
     text-align: center;
 }
 
-
 .ensemble{ 
     flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;   
+    width: 100%;
+    margin-bottom: 0%;
 }
 
 #hebergement h3{
@@ -310,20 +346,10 @@ main{
     font-size: large;
 }
 
-    /* END HEBERGEMENT */
-
+/* END HEBERGEMENT */
 
 
 /*HEBERGEMENT 2*/
-
-
-.ensemble{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;   
-    width: 100%;
-    margin-bottom: 0%;
-}
 
 .titre{
     margin-left: 4%;
@@ -350,9 +376,11 @@ main{
     margin: 2% 6%;
     padding-bottom: 10px;
 }
+
 .card-content{
     padding-left: 20px;
 }
+
 .card span{
     color:  #0065FC;
 }
@@ -397,8 +425,6 @@ aside{
     flex-wrap: nowrap;
 }
 
-
-
 aside .card-pop:hover{
     box-shadow: 6px 5px 13px 6px rgba(0,0,0,0.3);
     transition-duration: 0.1s;    
@@ -416,15 +442,16 @@ aside .card-pop:hover{
     margin-top: 9%;
     width: 100%;
     font-size: large;
-     justify-content: space-evenly;   
-     margin-bottom: 6%; 
- }
+    justify-content: space-evenly;   
+    margin-bottom: 6%; 
+}
 
 #popular_title span{
     margin-top: 5%;   
     font-size: large;
     margin-top: 0%;
 }
+
 #popular_title span i{
     color: black;
     height: 1em;
@@ -435,9 +462,9 @@ aside .card-pop:hover{
     color: #0065FC;
 }
 
-    #popular_title h3{
-        margin: 0% 8% 2% 0%;
-    }
+#popular_title h3{
+    margin: 0% 8% 2% 0%;
+}
 
 .card-pop{
     background-color: white;
@@ -453,6 +480,7 @@ aside .card-pop:hover{
     margin-bottom: 5%;
     box-shadow: 2px 3px 13px 1px rgba(0,0,0,0.3);
 }
+
 .card-pop img{
     width: 45%;
     height: 90%;
@@ -464,16 +492,17 @@ aside .card-pop:hover{
     min-height: 95%;
 }
 
-
 .card-pop a{
     width: 100%;
     height: 100%;
 }
+
 .card-pop div{
     margin-left: 3%;
     width: 200px;
     text-align: left;
 }
+
 .card-pop div h4{
     margin-top: 0%;
     margin-bottom: 4%;
@@ -492,17 +521,13 @@ aside .card-pop:hover{
     color: gray;
 }
 
-
 /* END POPULAIRE */
 
-
 /* ACTIVITES */
+
 #activites{
     display: none;  
 }
-/* #activites{
-    width: 95%;
-} */
 
 #activites-resp{
     display: flex;   
@@ -514,7 +539,6 @@ aside .card-pop:hover{
 
 .card-activities-small{
     width: 340px;
-    /* TODO: enlever le height */
     height: 220px;
     margin: 4% 0%;
     border-radius: 25px;
@@ -522,7 +546,6 @@ aside .card-pop:hover{
 }
 
 .card-activities-small img{
-    /* TODO: enlever le height */
     height: 70%;
     width: 100%;  
     border-radius: 25px 25px 0px 0px;
@@ -541,14 +564,13 @@ aside .card-pop:hover{
 
     /*FOOTER*/
 
-    footer{
+footer{
     background-color: #F2F2F2;
     margin-top: 3%;
     width: 100%;
     display: flex;     
     flex-direction: column;;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;  
 }
 
 footer div{
@@ -558,14 +580,14 @@ footer div{
 }
 
 footer div{
-    margin: 0%;
-    
+    margin: 0%;   
 }
 
 footer h4{
     font-size: 1.5em;
     margin: 0%
 }
+
 footer h4{
     white-space: nowrap;
 }
@@ -577,7 +599,7 @@ footer ul{
     text-align: left;
     justify-content: space-around;
     margin: 0%;
-    padding-left: 5%;
+    padding-left: 30%;
 }
 
 footer li{
@@ -600,6 +622,7 @@ a{
     color: black;
     text-decoration: none;
 }
+
 a:hover {
     color: #0065FC
 }
