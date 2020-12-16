@@ -127,10 +127,6 @@
     margin-top: 0%;
 }
 
-.titre{
-    margin-top: 2%;
-}
-
 .ensemble{
     flex-direction: row;
     margin-bottom: 0%;
@@ -139,10 +135,10 @@
 
 .card{
     margin: 2% 3%;
-    height: 90%;
+    height: 80%;
 }
 .card img{
-    height: 70%;
+    height: 75%;
 }
 
 #subtitle{
@@ -158,10 +154,13 @@ aside{
     justify-content: space-around;
 }
 
+#popular_title{
+    margin-bottom: 0px;
+}
 .card-pop{
-    width: 85%;
-    height: 170px;
-    max-width: 415px;
+    width: 80%;
+    height: 21%;
+    max-width: 420px;
 }
 
 #activities_title h3{
