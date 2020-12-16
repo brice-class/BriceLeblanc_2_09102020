@@ -212,6 +212,10 @@ footer{
     padding-left: 0px;
 }
 
+footer ul{
+    padding-left: 0px;
+}
+
 footer li{
     margin-bottom: 2%;
 }
