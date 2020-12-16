@@ -44,7 +44,7 @@
 }
 
 #logos{
-    flex-basis: 13%;
+    width: 150px;
     padding-top: 0%;
     padding-left: 0px;
 }
@@ -134,10 +134,15 @@
 .ensemble{
     flex-direction: row;
     margin-bottom: 0%;
+    height: 40%;
 }
 
 .card{
     margin: 2% 3%;
+    height: 90%;
+}
+.card img{
+    height: 70%;
 }
 
 #subtitle{
@@ -216,7 +221,7 @@ footer ul :nth-child(1) {
     margin-top: 3%;
 }
 
-@media screen and (min-width: 770px) and (max-width: 1024px)
+@media screen and (min-width: 770px) and (max-width: 1080px)
 {
     #set{
         flex-direction: column-reverse;
