@@ -137,6 +137,7 @@
     margin: 2% 3%;
     height: 87%;
     max-height: 250px;
+    min-height: 230px;
 }
 .card img{
     height: 75%;
@@ -160,7 +161,7 @@ aside{
 }
 .card-pop{
     width: 80%;
-  
+    height: 25%;
     max-width: 420px;
 }
 
