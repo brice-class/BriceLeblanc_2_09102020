@@ -135,7 +135,8 @@
 
 .card{
     margin: 2% 3%;
-    height: 90%;
+    height: 87%;
+    max-height: 250px;
 }
 .card img{
     height: 75%;
