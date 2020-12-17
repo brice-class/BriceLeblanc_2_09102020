@@ -156,11 +156,11 @@ aside{
 }
 
 #popular_title{
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 .card-pop{
     width: 80%;
-    height: 23%;
+  
     max-width: 420px;
 }
 
